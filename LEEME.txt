@@ -1,0 +1,13 @@
+OfiNails para Android (proyecto Android Studio)
+
+IMPORTANTE: este ZIP contiene el proyecto fuente listo para abrir en Android Studio; no es todavía un archivo APK instalable.
+
+Cómo generar el APK:
+1. Instala Android Studio en Windows.
+2. Extrae este ZIP.
+3. En Android Studio selecciona Open y elige la carpeta OfiNailsAndroid.
+4. Acepta instalar el Android SDK/Gradle que solicite y espera a que termine la sincronización.
+5. En el menú Build > Build Bundle(s) / APK(s) > Build APK(s).
+6. Al terminar, Android Studio mostrará un enlace para localizar el APK (normalmente app/build/outputs/apk/debug/app-debug.apk).
+
+La app abre el sitio local incluido en app/src/main/assets/index.html y necesita Internet para cargar Supabase/CDN. Verifica las credenciales y políticas de Supabase antes de usarla con citas reales.
